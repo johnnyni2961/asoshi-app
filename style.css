@@ -1,0 +1,510 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: abc,sans-serif,"Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+}
+
+.container-1{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* FOR DESKTOP
+
+}*/
+
+img{
+    max-width: 100%;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+a{
+    color: #1f1e1d;
+    text-decoration: none;
+}
+
+
+.header{
+    width: 100%;
+    background-color: #FFEBE2;
+}
+
+.main-first-showcase{
+    background-color: #F7F0E8;
+}
+
+.main-second-showcase{
+    background-color: #FFEDDC;
+}
+
+.offers{
+    background-color: #E6E8FA;
+}
+
+.offers-1{
+    background-color: #FFD8A9;
+}
+
+.footer{
+    background-color:  #F7F0E8;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+/*SHOWCASE HEADER*/
+
+.showcase-text h1{
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 900;
+    color: #312f2e;
+}
+
+.fs-20{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #62605d;
+}
+
+.fs-16{
+    font-size: 12px;
+    color: #62605d;
+}
+
+.showcase-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/*SHOWCASE-MIAN*/
+
+.main-first-showcase h2{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #312f2e;
+    padding:85px 0;
+}
+
+.money-text h3{
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 900;
+    color: #312f2e;
+    margin-bottom: 30px;
+}
+
+.money-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #62605d;
+}
+
+.money{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-main{
+    background-color: #FFEDDC;
+    border-radius: 15px;
+    width: 187px;
+    height: 55px;
+    border: none;
+}
+
+.learn-more{
+    color: #ffa451;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.main-second-showcase h2{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 900;
+    color: #312f2e;
+    padding-top: 50px;
+}
+
+.main-second-showcase p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #62605d;
+    padding: 20px 0;
+}
+
+
+.main-second-showcase a{
+    display: none;
+}
+
+.main-first-showcase h5{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 900;
+    color: #6f534f;
+    padding: 35px 0;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-first-showcase h1{
+    font-size: 27px;
+    font-weight: 900;
+    line-height: 36px;
+    padding: 40px 0;
+}
+
+.c-app{
+    margin-bottom: 70px;
+}
+
+.c-app p:first-child{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.c-app p:nth-child(2){
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #6f534f;
+}
+
+/*TESTIMONIAL*/
+
+.testimonial-1{
+    background-color: white;
+    width: 100%;
+    height: 290px;
+    margin: 30px 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.testimonial-rate{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.testimonial-rate p:nth-child(2){
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 900;
+}
+
+.testimonial-rate p:nth-child(3){
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #6f534f;
+}
+
+.offers,.offers-1{
+    border-radius: 15px;
+    height: 100%;
+}
+
+.offers-1{
+    margin-bottom: 30px;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.offer-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+/*FOOTER*/
+
+.link ul, .link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.link{
+    padding: 20px 0;
+}
+
+.first{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 14px;
+    color: #1f1e1d;
+}
+
+.link ul,li,a{
+    color: #6f534f;
+    font-size: 16px;
+}
+
+.link ul,li,a:hover{
+    color: #1f1e1d;
+}
+
+.last-p{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #6f534f;
+    padding: 50px 0;
+}
+
+@media(max-width:999px){
+    .hamburger{
+        border: none;
+        float: right;
+    }
+
+    .hamburger-1{
+        padding-bottom: 100px;
+        padding-top: 20px;
+        border: none;
+    }
+
+    .navbar-links-ul.open, .navbar-button.open{
+        z-index: 666;
+        display: flex;
+        height: auto;
+    }
+
+    .navbar-links-ul, .navbar-button{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        z-index: 666;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 50px;
+        background-color: #fff;
+    }
+
+    .navbar-links-ul li{
+        margin: 10px 0; 
+    }
+}
+
+
+
+@media(min-width:1000px){
+
+    .hamburger-1{
+        display: none;
+    }
+
+    .container-1{
+        max-width: 1300px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+        padding: 20px 0;
+    }
+
+    .navbar-links ul{
+        display: flex;
+        gap: 45px;
+    }
+
+    .showcase{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: calc(100% - 70px);
+    }
+
+    .header{
+        height: calc(100% - 70px);
+    }
+
+    .showcase-img{
+        width: 50%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .showcase-text{
+        align-items: flex-start;
+        width: 500px;
+        gap: 50px;
+    }
+
+    .benefits{
+        display: flex;
+        gap: 20px;
+    }
+
+    .money{
+        width: 300px;
+    }
+
+    .plan{
+        display: flex;
+        gap: 100px;
+    }
+
+    .plan-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .plan-text-1 h4{
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 30px;
+    }
+
+    .main-second-showcase a{
+        display: block;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 15px 0;
+        border-radius: 15px;
+    }
+
+    .main-second-showcase a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .get-started{
+        width: 160px;
+        padding: 50px 0;
+    }
+
+    .offer-text p:first-child{
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 34px;
+        color: #312f2e;
+    }
+
+    .offer-text{
+        text-align: left;
+        gap: 30px;
+    }
+    
+
+    .img-plan{
+        width: 50%;
+    }
+
+    .logos{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .testimonials{
+        display: flex;
+        gap: 30px;
+    }
+
+    .offer{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .offer-img{
+        width: 40%;
+    }
+
+    .offers{
+        margin-top: 30px;
+    }
+
+   .footer-links{
+       display: flex;
+       justify-content: space-between;
+   }
+
+   /*FONT-SIZE*/
+
+   .showcase-text h1{
+       font-size: 60px;
+       line-height: 60px;
+   }
+
+   .button-showcase{
+       padding: 15px 40px;
+       background-color: black;
+       color: white;
+       border-radius:15px;
+   }
+
+   .button-showcase:hover{
+       background-color: white;
+       color: black;
+   }
+
+   .main-first-showcase h2, .main-second-showcase h2,.main-first-showcase h1{
+       font-size: 64px;
+       line-height: 72px;
+   }
+
+   .money-text h3{
+       font-size: 36px;
+       line-height: 34px;
+   }
+
+   .c-app p:first-child{
+       font-size: 20px;
+   }
+
+   .c-app p:nth-child(2){
+       font-size: 16px;
+   }
+}
